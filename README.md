@@ -37,6 +37,19 @@ sms.sms_send({
 
 
 sms.sms_send({
+  to: '79112223344,79115556677,79115552255',
+  text: 'Текст SMS',
+  from: 'Имя отправителя',
+  time: new Date()/1000+60,
+  translit: false,
+  test: false,
+  partner_id: partner_id
+}, function(e){
+  console.log(e.description);
+});
+
+
+sms.sms_send({
   multi: [
     ['79112223344', 'Текст СМС'],
     ['79115556677', 'Текст СМС'],
