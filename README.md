@@ -3,6 +3,11 @@ sms_ru
 
 Nodejs модуль для работы с API сервиса [sms.ru](http://sms.ru)
 
+Официальная документация по работе с API – [http://sms.ru/?panel=api](http://sms.ru/?panel=api)
+## Установка
+```
+npm install sms_ru
+```
 
 ## Использование
 
