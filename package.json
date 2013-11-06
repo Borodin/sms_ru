@@ -1,0 +1,17 @@
+{
+  "name": "sms_ru",
+  "version": "0.0.1",
+  "description": "sms.ru API client",
+  "homepage": "https://github.com/borodin/sms_ru",
+  "main": "src/sms_ru",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/borodin/sms_ru.git"
+  },
+  "keywords": [
+    "sms",
+    "send",
+    "sms.ru"
+  ],
+  "author": "Borodin Maxim <maxim@borodinart.ru> (http://borodinart.ru)",
+}
