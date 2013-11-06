@@ -2,11 +2,11 @@
   "name": "sms_ru",
   "version": "0.0.1",
   "description": "sms.ru API client",
-  "homepage": "https://github.com/borodin/sms_ru",
+  "homepage": "https://github.com/Borodin/sms_ru",
   "main": "src/sms_ru",
   "repository": {
     "type": "git",
-    "url": "git://github.com/borodin/sms_ru.git"
+    "url": "git://github.com/Borodin/sms_ru.git"
   },
   "keywords": [
     "sms",
