@@ -40,3 +40,64 @@ sms.sms_send({
     console.log(e.description);
 });
 ```
+
+Статус SMS:
+```js
+sms.sms_status('SMS id', callback);
+```
+
+Стоимость SMS:
+```js
+sms.sms_cost({
+  to: '79112223344',
+  text: 'Текст SMS'
+}, callback);
+```
+
+Баланс:
+```js
+sms.my_balance(function(e){
+  console.log(e.balance);
+})
+```
+
+Дневной лимит:
+
+```js
+sms.my_limit(function(e){
+  console.log(e.current+' / '+e.total);
+})
+```
+
+Отправители:
+```js
+sms.my_senders(function(e){
+  console.log(e.senders);
+})
+```
+
+Добавить номер в стоплист:
+```js
+sms.stoplist_add({
+  phone:'79112223344',
+  text:'Примечание'
+}, callback)
+```
+
+Удалить номер из стоп-листа:
+```js
+sms.stoplist_del({
+  phone:'79112223344',
+}, callback)
+```
+
+Получить номера стоплиста:
+```js
+sms.stoplist_get(function(e){
+  console.log(e.stoplist);
+})
+```
+
+## Автор
+
+[Максим Бородин](https://github.com/Borodin/), e-mail: [maxim@borodinart.rue](mailto:maxim@borodinart.ru)
