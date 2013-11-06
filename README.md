@@ -100,4 +100,4 @@ sms.stoplist_get(function(e){
 
 ## Автор
 
-[Максим Бородин](https://github.com/Borodin/), e-mail: [maxim@borodinart.rue](mailto:maxim@borodinart.ru)
+[Максим Бородин](https://github.com/Borodin/), e-mail: [maxim@borodinart.ru](mailto:maxim@borodinart.ru)
