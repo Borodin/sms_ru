@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "sms.ru API client",
   "homepage": "https://github.com/Borodin/sms_ru",
-  "main": "src/sms_ru",
+  "main": "src/index",
   "repository": {
     "type": "git",
     "url": "git://github.com/Borodin/sms_ru.git"
