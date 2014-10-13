@@ -97,7 +97,7 @@ SMSru.prototype = {
 				callback(response);
 			}});
 		}).on('error', function(e) {
-		  console.log("Error: " + e.message);
+		  callback(null, e.message);
 		});
 	},
 }
